@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "tests-chromium": "npx playwright test --project=chromium",
-    "show-report": "npx playwright show-report"
+    "show-report": "npx playwright show-report",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.47.0",
-    "@types/node": "^22.5.4"
+    "@types/node": "^22.5.4",
+    "prettier": "^3.3.3"
   }
 }
