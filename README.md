@@ -4,14 +4,14 @@ This repository contains an automated test framework built using Playwright, des
 
 ## Commands
 
-To run tests in Chromium browser with framework UI:
+To run tests in Chromium browser with framework UI:  
 `npm run tests:chromium-ui`
 
-To run tests in Chromium browser in Headed Mode(visible browser UI):
+To run tests in Chromium browser in Headed Mode (visible browser UI):  
 `npm run tests:chromium-headed`
 
-To open last HTML report:
+To open the last HTML report:  
 `npm run report`
 
-To format your code using Prettier:
+To format your code using Prettier:  
 `npm run format`
